@@ -27,7 +27,9 @@ class PokeFetch extends Component {
 
         this.setState({
           time: this.state.time - 1
-        })}}
+        })}else {
+          clearInterval(this.timer)
+        }}
         , 1000)
       }
     
