@@ -28,13 +28,27 @@
   margin-left: 18vw;
 }
 
-.pokeImg {
+.pokeImgInvisible {
   width: 500px;
+  filter: brightness(0%);
 }
 
-.pokeName {
+.pokeImgVisible {
+  width: 500px;
+  filter: brightness(100%);
+}
+
+.pokeNameInvisible {
   font-family: 'Press Start 2P', cursive;
   text-transform: uppercase;
   margin-top: -50px;
+  opacity: 0;
+}
+
+.pokeNameVisible {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  margin-top: -50px;
+  opacity: 1;
 }
 
